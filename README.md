@@ -138,7 +138,7 @@ The Gulf Stream has the most total observations but loses the most coverage once
 
 Cross-referencing to global maritime shipping routes in figure 3 to assess economic importance, all three regions lie on major routes – the Gulf Stream along the North Atlantic and US East Coast, the Agulhas along the Cape of Good Hope route, and the Kuroshio within the dense East Asian network, with several secondary chokepoints around Taiwan, Korea and Japan.
 
-!(Figure 3: Maritime Shipping Routes and Chokepoints)[figures/Map-Passages-with-Shipping-Routes.png]
+![Figure 3: Maritime Shipping Routes and Chokepoints](figures/Map-Passages-with-Shipping-Routes.png)
 
 *Figure 3: Maritime Shipping Routes and Chokepoints*
 
