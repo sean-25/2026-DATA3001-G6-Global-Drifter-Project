@@ -1,0 +1,9 @@
+typedeath,lost date == end date (+-1d),lost date after end,lost date before end,no lost date,All
+0 alive,0,0,608,179,787
+1 aground,1233,0,3803,0,5036
+2 picked up,704,0,589,0,1293
+3 stopped transmitting,4173,1,7946,0,12120
+4 sporadic,2,0,2,0,4
+5 bad batteries,2,0,2,0,4
+6 inactive,21,0,131,0,152
+All,6135,1,13081,179,19396
