@@ -4,7 +4,7 @@ DATA3001 DATA SCIENCE AND DECISIONS IN PRACTICE | TERM 3, 2026
 
 ## PROJECT PROPOSAL
 
-!(Cover image: surface drifters in the ocean)[path]
+!(Cover image: surface drifters in the ocean)[figures/Cover-Page.jpg]
 
 8 October 2026
 
@@ -104,7 +104,7 @@ The deliverable is a gridded climatology giving per cell mean velocity and speed
 
 ### *Global Scope*
 
-!(Figure 1: Global distribution of ocean drifters)[path]
+!(Figure 1: Global distribution of ocean drifters)[figures/GDP-drifter-density-global-map.png]
 
 *Figure 1: Global distribution of ocean drifters*
 
@@ -112,7 +112,7 @@ To select a study region, the global distribution of drifter observations was ex
 
 Density alone cannot determine whether a heavily sampled region is oceanographically or economically important. In conjunction with a global figure of the mean surface current velocity measured by these drifters (figure 2), three strong currents stand out in well-sampled regions – The Gulf Stream off the East Coast of the US, The Kuroshio around Taiwan and Japan, and the Agulhas Current off the South-East coast of Africa.
 
-!(Figure 2: Global Mean Surface Current Velocity)[path]
+!(Figure 2: Global Mean Surface Current Velocity)[figures/Mean-surface-velocity-global-map.png]
 
 *Figure 2: Global Mean Surface Current Velocity*
 
@@ -138,7 +138,7 @@ The Gulf Stream has the most total observations but loses the most coverage once
 
 Cross-referencing to global maritime shipping routes in figure 3 to assess economic importance, all three regions lie on major routes – the Gulf Stream along the North Atlantic and US East Coast, the Agulhas along the Cape of Good Hope route, and the Kuroshio within the dense East Asian network, with several secondary chokepoints around Taiwan, Korea and Japan.
 
-!(Figure 3: Maritime Shipping Routes and Chokepoints)[path]
+!(Figure 3: Maritime Shipping Routes and Chokepoints)[figures/Map-Passages-with-Shipping-Routes.png]
 
 *Figure 3: Maritime Shipping Routes and Chokepoints*
 
@@ -148,7 +148,7 @@ Shipping relevance therefore does not separate the candidates, but it confirms t
 
 ## PRELIMINARY EDA – KUROSHIO IN FOCUS
 
-!(Figure 4: (a) Mean surface velocity, drogued data, cells with ≥5 drifters and ≥20 days; colour is speed. (b) Distinct drifters per cell.)[path]
+!(Figure 4: (a) Mean surface velocity, drogued data, cells with ≥5 drifters and ≥20 days; colour is speed. (b) Distinct drifters per cell.)[figures/kuroshio-region-mean-vel-distinct-drifter-drogued.png]
 
 *Figure 4: (a) Mean surface velocity, drogued data, cells with ≥5 drifters and ≥20 days; colour is speed. (b) Distinct drifters per cell.*
 
