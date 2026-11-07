@@ -1,0 +1,5 @@
+policy,n_obs,pct_of_P3_obs,n_unique_drifters,cells_obs>=20_only,cells_supported_all_3_screens,pct_of_grid_supported,pct_of_P3_supported_kept,median_drifters_per_cell,years_with_data,first_year,last_year
+P1 drogued only,2132029,46.043508363953,1174,589,556,74.13333333333334,97.2027972027972,31.0,28,1990,2022
+P2 drogued + undrogued,4624589,99.8730797289085,1528,611,572,76.26666666666667,100.0,74.0,29,1990,2022
+P3 all observations,4630466,100.0,1535,611,572,76.26666666666667,100.0,74.0,29,1990,2022
+P1s sensitivity (lost date = end excluded),1283838,27.72589195126365,678,568,515,68.66666666666667,90.03496503496504,21.0,25,1990,2022

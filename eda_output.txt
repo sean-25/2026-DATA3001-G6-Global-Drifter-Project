@@ -1,0 +1,33 @@
+Opening GDP hourly dataset...
+Total drifters: 19,396   Total observations: 197,214,787
+Processing 19,396 drifters in 39 batches of 500...
+  batch 5/39 done (drifters 2000-2499, obs so far processed: 31,032,121)
+  batch 10/39 done (drifters 4500-4999, obs so far processed: 56,381,817)
+  batch 15/39 done (drifters 7000-7499, obs so far processed: 79,874,596)
+  batch 20/39 done (drifters 9500-9999, obs so far processed: 95,867,780)
+  batch 25/39 done (drifters 12000-12499, obs so far processed: 125,569,456)
+  batch 30/39 done (drifters 14500-14999, obs so far processed: 156,305,632)
+  batch 35/39 done (drifters 17000-17499, obs so far processed: 185,246,345)
+  batch 39/39 done (drifters 19000-19395, obs so far processed: 197,214,787)
+
+====================================================================================================
+PER-REGION SUMMARY (ranked by observation count = data coverage/density)
+====================================================================================================
+           region   n_obs  pct_of_all_obs  n_unique_drifters  mean_speed_m_s  std_speed_m_s           first_obs            last_obs  coverage_span_days
+Mediterranean Sea 1238750        0.628122              499.0        0.214365       0.150360 1998-06-15 21:00:00 2022-10-31 00:00:00              8903.0
+    Caribbean Sea  934881        0.474042              698.0        0.300248       0.213926 1998-10-18 10:00:00 2022-10-31 00:00:00              8778.0
+  South China Sea  880789        0.446614              547.0        0.344932       0.246689 2003-10-13 07:00:00 2022-10-30 19:00:00              6957.0
+    Bay of Bengal  792583        0.401888              363.0        0.325504       0.222150 2000-07-14 15:00:00 2022-03-19 12:00:00              7917.0
+   Gulf of Guinea  736908        0.373658              382.0        0.322718       0.204798 2000-07-28 20:00:00 2022-10-31 00:00:00              8129.0
+   Gulf of Mexico  636136        0.322560              389.0        0.377943       0.310334 1999-01-11 11:00:00 2022-10-31 00:00:00              8693.0
+   East China Sea  498475        0.252757              519.0        0.425302       0.295150 1999-06-24 06:00:00 2022-08-04 13:00:00              8442.0
+        North Sea  103121        0.052289              137.0        0.236903       0.167033 1992-01-22 20:00:00 2022-10-31 00:00:00             11239.0
+Strait of Malacca   13711        0.006952               71.0        0.348609       0.297388 2000-09-03 23:00:00 2020-02-03 02:00:00              7091.0
+     Persian Gulf       0        0.000000                0.0             NaN            NaN                 NaT                 NaT                 NaN
+
+97.1% of all observations fell outside every defined region box.
+
+Highest-coverage region: Mediterranean Sea (1,238,750 observations, 499 unique drifters, 0.63% of all data)
+
+Saved full summary to gdp_region_summary.csv
+Saved bar chart to gdp_region_coverage.png

@@ -1,0 +1,4 @@
+policy,n_obs,pct_of_P3_obs,n_unique_drifters,cells_with_>=20_obs,pct_of_grid_cells_covered,pct_of_P3_covered_cells_retained,cells_with_any_obs,years_with_data,first_year,last_year
+P1 drogued only,1482805,39.38789588646507,877,474,89.77272727272727,96.14604462474645,479,28,1990,2022
+P2 drogued + unknown,1482811,39.388055265058554,877,474,89.77272727272727,96.14604462474645,479,28,1990,2022
+P3 all observations,3764621,100.0,1210,493,93.37121212121212,100.0,501,30,1990,2022
