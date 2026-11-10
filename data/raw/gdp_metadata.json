@@ -1,0 +1,29 @@
+{
+  "clouddrift_version": "0.48.1",
+  "ds_attrs": {
+    "Conventions": "CF-1.6",
+    "acknowledgement": "Elipot, Shane; Sykulski, Adam; Lumpkin, Rick; Centurioni, Luca; Pazos, Mayra (2022). Hourly location, current velocity, and temperature collected from Global Drifter Program drifters world-wide. [indicate subset used]. NOAA National Centers for Environmental Information. Dataset. https://doi.org/10.25921/x46c-3620. Accessed [date]. Elipot et al. (2022): A Dataset of Hourly Sea Surface Temperature From Drifting Buoys, Scientific Data, 9, 567, https://dx.doi.org/10.1038/s41597-022-01670-2. Elipot et al. (2016): A global surface drifter dataset at hourly resolution, J. Geophys. Res.-Oceans, 121, https://dx.doi.org/10.1002/2016JC011716.",
+    "contributor_name": "NOAA Global Drifter Program",
+    "contributor_role": "Data Acquisition Center",
+    "date_created": "2024-07-30T19:02:16.200531",
+    "doi": "10.25921/x46c-3620",
+    "history": "version 2.01.1. Metadata from dirall.dat and deplog.dat",
+    "institution": "NOAA Atlantic Oceanographic and Meteorological Laboratory",
+    "license": "freely available",
+    "metadata_link": "https://www.aoml.noaa.gov/phod/dac/dirall.html",
+    "processing_level": "Level 2 QC by GDP drifter DAC",
+    "publisher_email": "aoml.dftr@noaa.gov",
+    "publisher_name": "GDP Drifter DAC",
+    "publisher_url": "https://www.aoml.noaa.gov/phod/gdp",
+    "summary": "Global Drifter Program hourly data",
+    "time_coverage_end": "2022-10-31:00:00:00Z",
+    "time_coverage_start": "1987-10-02:13:00:00Z",
+    "title": "Global Drifter Program hourly drifting buoy collection"
+  },
+  "flg_sst_attrs": {
+    "flag_meanings": "no-estimate, no-uncertainty-estimate, estimate-not-in-range-uncertainty-not-in-range, estimate-not-in-range-uncertainty-in-range estimate-in-range-uncertainty-not-in-range, estimate-in-range-uncertainty-in-range",
+    "flag_values": "0, 1, 2, 3, 4, 5",
+    "long_name": "Fitted sea water temperature quality flag",
+    "units": "-"
+  }
+}
