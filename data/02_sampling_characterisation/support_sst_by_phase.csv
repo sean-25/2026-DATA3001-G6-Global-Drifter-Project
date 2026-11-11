@@ -1,0 +1,5 @@
+phase,median_drifters,share_ge5,share_ge10,share_ge20
+All,70.0,0.9337,0.8964,0.8528
+Neutral,34.0,0.9029,0.8576,0.7977
+La Niña,27.0,0.8625,0.8155,0.7023
+El Niño,12.0,0.8333,0.6796,0.1618

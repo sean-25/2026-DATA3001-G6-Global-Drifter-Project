@@ -1,0 +1,96 @@
+{
+  "drogued_obs": 2135791,
+  "drogued_drifters": 1177,
+  "n_ocean_cells_vel": 595,
+  "n_sst_cells": 618,
+  "drogue_cost": {
+    "share_hours_kept": 0.4619,
+    "share_drifters_kept": 0.7688,
+    "share_cells_kept": 0.9566
+  },
+  "support_vel_by_phase": {
+    "All": {
+      "median_drifters": 31.0,
+      "share_ge5": 0.9445,
+      "share_ge10": 0.9008,
+      "share_ge20": 0.7496
+    },
+    "Neutral": {
+      "median_drifters": 16.0,
+      "share_ge5": 0.9076,
+      "share_ge10": 0.7782,
+      "share_ge20": 0.4
+    },
+    "La Niña": {
+      "median_drifters": 11.0,
+      "share_ge5": 0.8017,
+      "share_ge10": 0.5782,
+      "share_ge20": 0.242
+    },
+    "El Niño": {
+      "median_drifters": 4.0,
+      "share_ge5": 0.4336,
+      "share_ge10": 0.0857,
+      "share_ge20": 0.0017
+    }
+  },
+  "support_sst_by_phase": {
+    "All": {
+      "median_drifters": 70.0,
+      "share_ge5": 0.9337,
+      "share_ge10": 0.8964,
+      "share_ge20": 0.8528
+    },
+    "Neutral": {
+      "median_drifters": 34.0,
+      "share_ge5": 0.9029,
+      "share_ge10": 0.8576,
+      "share_ge20": 0.7977
+    },
+    "La Niña": {
+      "median_drifters": 27.0,
+      "share_ge5": 0.8625,
+      "share_ge10": 0.8155,
+      "share_ge20": 0.7023
+    },
+    "El Niño": {
+      "median_drifters": 12.0,
+      "share_ge5": 0.8333,
+      "share_ge10": 0.6796,
+      "share_ge20": 0.1618
+    }
+  },
+  "enso_events": {
+    "El Niño": {
+      "total": 10,
+      "with_drogued_data": 7
+    },
+    "La Niña": {
+      "total": 11,
+      "with_drogued_data": 10
+    }
+  },
+  "median_year_drogued_hours": 2013.0,
+  "cell_medians": {
+    "velocity": {
+      "n_obs": 3221.0,
+      "n_drifters": 31.0,
+      "n_eff": 16.2026,
+      "eff_ratio": 0.5469,
+      "top_share": 0.1332,
+      "hours_per_visit": 75.0,
+      "n_years": 13.0
+    },
+    "sst": {
+      "n_obs": 7461.0,
+      "n_drifters": 70.0,
+      "n_eff": 35.6307,
+      "eff_ratio": 0.5217,
+      "top_share": 0.0749,
+      "hours_per_visit": 76.75,
+      "n_years": 18.0
+    }
+  },
+  "n_cells_grid": 750,
+  "n_cells_any_vel": 622
+}
