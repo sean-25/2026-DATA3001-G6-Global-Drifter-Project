@@ -7,18 +7,19 @@
     29.89
   ],
   "weighting_diff_ms": {
-    "min_drifters": 5,
-    "median": 0.0599,
-    "p90": 0.2249
+    "min_drifters": 2,
+    "n_cells": 577,
+    "median": 0.0596,
+    "p90": 0.2235
   },
   "weighting_speed_comparison": {
-    "min_drifters": 5,
+    "min_drifters": 2,
     "jet_threshold_ms": 0.4,
     "all": {
-      "n_cells": 562,
-      "n_drifter_weighted_faster": 504,
-      "share_drifter_weighted_faster": 0.897,
-      "median_diff_ms": 0.0459
+      "n_cells": 577,
+      "n_drifter_weighted_faster": 515,
+      "share_drifter_weighted_faster": 0.893,
+      "median_diff_ms": 0.0451
     },
     "jet": {
       "n_cells": 41,
@@ -32,6 +33,6 @@
     "lat": 33.5,
     "n_drifters": 53
   },
-  "n_cells_ge_min_drifters": 562,
-  "weighting_map_vmax_p95_ms": 0.3102
+  "n_cells_quicklook_ge5": 562,
+  "weighting_map_vmax_p95_ms": 0.3097
 }
