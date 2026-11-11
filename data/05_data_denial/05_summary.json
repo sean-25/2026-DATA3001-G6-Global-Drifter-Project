@@ -1,0 +1,152 @@
+{
+  "n_test_cells": {
+    "total": 100,
+    "recirculation": 65,
+    "jet": 35
+  },
+  "primary": "fpc_corrected",
+  "min_test_drifters": 60,
+  "ks": [
+    3,
+    5,
+    10,
+    15,
+    20,
+    30
+  ],
+  "B": 500,
+  "seed": 20261105,
+  "target_cmps": 10,
+  "otsu_threshold_ms": 0.34,
+  "test_mean_speed_ms": {
+    "jet": {
+      "median": 0.458,
+      "min": 0.351,
+      "max": 0.9
+    },
+    "recirculation": {
+      "median": 0.125,
+      "min": 0.009,
+      "max": 0.319
+    }
+  },
+  "median_E95_cmps": {
+    "jet": {
+      "3": 59.62,
+      "5": 47.87,
+      "10": 30.43,
+      "15": 25.43,
+      "20": 21.44,
+      "30": 17.48
+    },
+    "recirculation": {
+      "3": 36.51,
+      "5": 26.03,
+      "10": 17.8,
+      "15": 13.79,
+      "20": 11.78,
+      "30": 9.13
+    }
+  },
+  "median_E95_cmps_uncorrected": {
+    "jet": {
+      "3": 58.33,
+      "5": 46.12,
+      "10": 29.38,
+      "15": 23.79,
+      "20": 19.27,
+      "30": 15.16
+    },
+    "recirculation": {
+      "3": 35.65,
+      "5": 25.18,
+      "10": 16.3,
+      "15": 12.31,
+      "20": 9.87,
+      "30": 6.94
+    }
+  },
+  "slopes": {
+    "jet": -0.544,
+    "recirculation": -0.595
+  },
+  "slopes_uncorrected": {
+    "jet": -0.593,
+    "recirculation": -0.696
+  },
+  "N_star": {
+    "jet": 83,
+    "recirculation": 26
+  },
+  "N_star_uncorrected": {
+    "jet": 62,
+    "recirculation": 20
+  },
+  "n_velocity_cells": 595,
+  "coverage": {
+    "share_meeting_overall": 0.5815,
+    "share_meeting_by_region": {
+      "jet": 0.4259,
+      "recirculation": 0.597
+    },
+    "median_extra_drifters_short": {
+      "jet": 34.0,
+      "recirculation": 9.0
+    }
+  },
+  "coverage_uncorrected": {
+    "share_meeting_overall": 0.7227,
+    "share_meeting_by_region": {
+      "jet": 0.6111,
+      "recirculation": 0.7338
+    },
+    "median_extra_drifters_short": {
+      "jet": 16.0,
+      "recirculation": 8.0
+    }
+  },
+  "single_relationship": {
+    "uncorrected": {
+      "C": 1.5533,
+      "median_ratio_obs_to_pred": {
+        "jet": {
+          "3": 1.32,
+          "5": 1.27,
+          "10": 1.25,
+          "15": 1.14,
+          "20": 1.13,
+          "30": 1.05
+        },
+        "recirculation": {
+          "3": 1.05,
+          "5": 0.97,
+          "10": 0.89,
+          "15": 0.82,
+          "20": 0.77,
+          "30": 0.69
+        }
+      }
+    },
+    "fpc_corrected": {
+      "C": 1.7112,
+      "median_ratio_obs_to_pred": {
+        "jet": {
+          "3": 1.21,
+          "5": 1.18,
+          "10": 1.21,
+          "15": 1.15,
+          "20": 1.11,
+          "30": 1.12
+        },
+        "recirculation": {
+          "3": 0.97,
+          "5": 0.91,
+          "10": 0.86,
+          "15": 0.83,
+          "20": 0.83,
+          "30": 0.81
+        }
+      }
+    }
+  }
+}
