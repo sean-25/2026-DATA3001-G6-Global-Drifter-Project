@@ -35,10 +35,12 @@
   "weighting_sensitive": {
     "all_ci_cells": {
       "n_cells": 577,
+      "n_sensitive": 221,
       "share": 0.383
     },
     "reliable": {
       "n_cells": 310,
+      "n_sensitive": 135,
       "share": 0.4355
     }
   },
