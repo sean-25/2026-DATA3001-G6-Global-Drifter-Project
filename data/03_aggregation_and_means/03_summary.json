@@ -1,0 +1,37 @@
+{
+  "agg_vel_rows": 23722,
+  "agg_sst_rows": 48153,
+  "max_mean_speed_ms": 1.11,
+  "sst_range_c": [
+    11.3,
+    29.89
+  ],
+  "weighting_diff_ms": {
+    "min_drifters": 5,
+    "median": 0.0599,
+    "p90": 0.2249
+  },
+  "weighting_speed_comparison": {
+    "min_drifters": 5,
+    "jet_threshold_ms": 0.4,
+    "all": {
+      "n_cells": 562,
+      "n_drifter_weighted_faster": 504,
+      "share_drifter_weighted_faster": 0.897,
+      "median_diff_ms": 0.0459
+    },
+    "jet": {
+      "n_cells": 41,
+      "n_drifter_weighted_faster": 41,
+      "share_drifter_weighted_faster": 1.0,
+      "median_diff_ms": 0.2482
+    }
+  },
+  "max_mean_speed_cell": {
+    "lon": 136.5,
+    "lat": 33.5,
+    "n_drifters": 53
+  },
+  "n_cells_ge_min_drifters": 562,
+  "weighting_map_vmax_p95_ms": 0.3102
+}
