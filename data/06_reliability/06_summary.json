@@ -1,0 +1,73 @@
+{
+  "N_star": {
+    "jet": 83,
+    "recirculation": 26
+  },
+  "jet_threshold_cmps": 34.0,
+  "velocity": {
+    "cells_with_data": 595,
+    "cells_by_region": {
+      "jet": 54,
+      "recirculation": 541
+    },
+    "reliable": 310,
+    "reliable_by_region": {
+      "jet": 17,
+      "recirculation": 293
+    },
+    "direction_resolved": 184,
+    "direction_resolved_by_region": {
+      "jet": 17,
+      "recirculation": 167
+    },
+    "share_reliable": 0.521,
+    "categories": {
+      "too few drifters": 249,
+      "enough drifters, not yet precise": 36,
+      "reliable": 126,
+      "reliable, direction resolved": 184
+    },
+    "median_extra_drifters_unreliable": {
+      "jet": 25.0,
+      "recirculation": 8.0
+    }
+  },
+  "weighting_sensitive": {
+    "all_ci_cells": {
+      "n_cells": 577,
+      "n_sensitive": 221,
+      "share": 0.383
+    },
+    "reliable": {
+      "n_cells": 310,
+      "n_sensitive": 135,
+      "share": 0.4355
+    }
+  },
+  "median_seasonal_range_c": {
+    "all_cells": 5.519,
+    "cells_with_4_seasons": 5.624
+  },
+  "sst": {
+    "target_c": 0.5,
+    "cells_with_data": 618,
+    "cells_with_4_seasons": 558,
+    "halfwidth_le_target": 163,
+    "abs_bias_gt_target": 178,
+    "median_abs_bias_c": 0.319,
+    "reliable": 147,
+    "share_reliable": 0.2379,
+    "map_categories": {
+      "missing a season": 60,
+      "uncertainty too large": 398,
+      "seasonal bias too large": 13,
+      "reliable": 147
+    },
+    "fails_each_condition": {
+      "missing_season": 60,
+      "halfwidth_gt_target": 435,
+      "abs_bias_gt_target": 178
+    },
+    "halfwidth_and_bias_both_fail": 165
+  }
+}

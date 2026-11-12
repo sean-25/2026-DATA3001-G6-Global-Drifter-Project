@@ -1,0 +1,183 @@
+{
+  "window": [
+    "2002-01",
+    "2022-10"
+  ],
+  "n_months": 250,
+  "hours_in_window": {
+    "velocity": 2121271,
+    "sst": 4379625
+  },
+  "share_hours_kept": {
+    "velocity_drogued_hours": 0.9932,
+    "sst_hours": 0.9965
+  },
+  "el_nino_events_in_window": 6,
+  "el_nino_events": [
+    {
+      "start": "2002-07",
+      "end": "2003-01",
+      "n_months": 7
+    },
+    {
+      "start": "2004-07",
+      "end": "2005-01",
+      "n_months": 7
+    },
+    {
+      "start": "2006-09",
+      "end": "2007-01",
+      "n_months": 5
+    },
+    {
+      "start": "2009-09",
+      "end": "2010-03",
+      "n_months": 7
+    },
+    {
+      "start": "2015-03",
+      "end": "2016-04",
+      "n_months": 14
+    },
+    {
+      "start": "2018-10",
+      "end": "2019-04",
+      "n_months": 7
+    }
+  ],
+  "months_by_phase": {
+    "El Niño": 47,
+    "non-El Niño": 203
+  },
+  "anomaly_check": {
+    "velocity": {
+      "cells": 595,
+      "cells_missing_a_season": 65,
+      "max_abs_anom_mean_4_seasons": 3.7654794518384805e-17,
+      "max_abs_anom_mean_all_cells": 3.7654794518384805e-17
+    },
+    "sst": {
+      "cells": 618,
+      "cells_missing_a_season": 61,
+      "max_abs_anom_mean_4_seasons": 2.785795252964004e-15,
+      "max_abs_anom_mean_all_cells": 3.315866100213801e-15
+    }
+  },
+  "cells_tested": {
+    "velocity": 493,
+    "sst": 559
+  },
+  "N_star": {
+    "jet": 83,
+    "recirculation": 26
+  },
+  "achievable_precision_fit": {
+    "jet": {
+      "intercept_a": 4.703,
+      "slope_b": -0.5443,
+      "N_star_refit": 83
+    },
+    "recirculation": {
+      "intercept_a": 4.2384,
+      "slope_b": -0.5946,
+      "N_star_refit": 26
+    }
+  },
+  "n_permutations": 227,
+  "permutation_lags_months": [
+    12,
+    238
+  ],
+  "permutation_seconds": {
+    "vel": 0.2,
+    "sst": 0.3
+  },
+  "bootstrap_seconds": 2.6,
+  "significance": {
+    "velocity": {
+      "cells_tested": 493,
+      "cells_with_p": 483,
+      "cells_p_nan": 10,
+      "significant": 37,
+      "expected_under_null": 24.2,
+      "null_count_median": 20.0,
+      "null_count_95th_percentile": 33.7,
+      "field_p": 0.0263,
+      "median_abs_du_cmps_tested": 9.918,
+      "p90_abs_du_cmps_tested": 23.781,
+      "median_abs_du_cmps_significant": 27.819,
+      "p90_abs_du_cmps_significant": 45.081,
+      "robust": 0,
+      "significant_nonEN_reliable": 28
+    },
+    "sst": {
+      "cells_tested": 559,
+      "cells_with_p": 549,
+      "cells_p_nan": 10,
+      "significant": 27,
+      "expected_under_null": 27.5,
+      "null_count_median": 24.0,
+      "null_count_95th_percentile": 47.0,
+      "field_p": 0.4211,
+      "median_abs_d_sst_c_tested": 0.395,
+      "p90_abs_d_sst_c_tested": 0.976,
+      "median_abs_d_sst_c_significant": 1.084,
+      "p90_abs_d_sst_c_significant": 3.141,
+      "robust": 2,
+      "significant_nonEN_reliable": 14,
+      "share_significant_dT_positive": 0.2963,
+      "share_significant_dT_negative": 0.7037
+    }
+  },
+  "reliable_cells_by_phase": {
+    "velocity": {
+      "El Niño": {
+        "total": 0,
+        "jet": 0,
+        "recirculation": 0
+      },
+      "non-El Niño": {
+        "total": 245,
+        "jet": 16,
+        "recirculation": 229
+      }
+    },
+    "sst": {
+      "El Niño": {
+        "total": 18,
+        "jet": 1,
+        "recirculation": 17
+      },
+      "non-El Niño": {
+        "total": 147,
+        "jet": 16,
+        "recirculation": 131
+      }
+    }
+  },
+  "el_nino_precision": {
+    "max_drifters_per_cell": 21,
+    "cells_with_el_nino_velocity_data": 551,
+    "cells_el_nino_n_ge_N_star": 0,
+    "median_achievable_E95_cmps": 30.39,
+    "median_achievable_E95_cmps_tested": 30.39,
+    "median_drifters_needed_by_region": {
+      "jet": 73.0,
+      "recirculation": 22.0
+    }
+  },
+  "seasonal_composition_of_months": {
+    "El Niño": {
+      "DJF": 0.3191,
+      "MAM": 0.1702,
+      "JJA": 0.1489,
+      "SON": 0.3617
+    },
+    "non-El Niño": {
+      "DJF": 0.2315,
+      "MAM": 0.2709,
+      "JJA": 0.2759,
+      "SON": 0.2217
+    }
+  }
+}

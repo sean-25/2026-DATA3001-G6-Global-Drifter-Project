@@ -1,1 +1,14 @@
-data/*.parquet
+data/**/*.parquet
+
+# OS / editor
+.DS_Store
+.Rhistory
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+.jupyter_ystore.db
+
+# Python
+__pycache__/
+*.pyc

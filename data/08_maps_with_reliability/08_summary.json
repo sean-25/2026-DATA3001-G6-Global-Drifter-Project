@@ -1,0 +1,28 @@
+{
+  "climatology_speed_vmax_cmps": 45.93,
+  "climatology_speed_vmax_percentile": 95,
+  "counts": {
+    "climatology_velocity": {
+      "drawn": 595,
+      "arrows": 310,
+      "hatched": 285
+    },
+    "climatology_sst": {
+      "drawn": 618,
+      "hatched": 471
+    },
+    "weighting": {
+      "drawn": 577,
+      "hatched": 267,
+      "outlined": 221
+    },
+    "U95": {
+      "drawn": 577,
+      "outlined": 310
+    },
+    "sst_halfwidth": {
+      "drawn": 598,
+      "outlined": 147
+    }
+  }
+}
