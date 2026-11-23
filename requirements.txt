@@ -1,0 +1,21 @@
+# Python 3.13 (tested with 3.13.1). Install with: pip install -r requirements.txt
+# Analysis
+numpy==2.4.6
+pandas==3.0.3
+pyarrow==25.0.1
+scipy==1.17.1
+matplotlib==3.10.8
+cartopy==0.26.0
+# GDP hourly access (notebook 01 extraction): clouddrift reads the AWS Zarr store via xarray/zarr/fsspec
+clouddrift==0.48.1
+xarray==2026.7.0
+zarr==2.18.7
+fsspec==2026.3.0
+aiohttp==3.14.3
+requests==2.34.2
+# Running the notebooks (jupyter / run_all.py)
+jupyter_core==5.9.1
+nbformat==5.10.4
+nbclient==0.10.4
+nbconvert==7.17.0
+ipykernel==7.2.0

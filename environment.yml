@@ -1,0 +1,11 @@
+# conda env create -f environment.yml && conda activate gdp-kuroshio
+# conda-forge supplies cartopy's GEOS/PROJ libraries; everything else is pinned in requirements.txt.
+name: gdp-kuroshio
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - cartopy=0.26.0
+  - pip
+  - pip:
+      - -r requirements.txt

@@ -16,7 +16,7 @@
   ],
   "B": 500,
   "seed": 20261105,
-  "target_cmps": 10,
+  "target_cmps": 10.0,
   "otsu_threshold_ms": 0.34,
   "test_mean_speed_ms": {
     "jet": {
