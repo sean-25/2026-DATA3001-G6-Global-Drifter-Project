@@ -303,8 +303,6 @@ describe non-El Niño. The per-phase columns repeat the 06 definitions within ea
 
 ### References
 
-UNSW Harvard style. The CPC labels match the reference list in the final report.
-
 Climate Prediction Center (CPC) 2026a, *Implementing a Relative Oceanic Niño Index effective
 February 1, 2026*, Public Information Statement 26-05, National Weather Service, National Oceanic
 and Atmospheric Administration, viewed 11 November 2026,
