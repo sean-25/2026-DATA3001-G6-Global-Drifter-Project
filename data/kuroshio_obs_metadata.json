@@ -25,5 +25,12 @@
     "flag_values": "0, 1, 2, 3, 4, 5",
     "long_name": "Fitted sea water temperature quality flag",
     "units": "-"
+  },
+  "extraction": {
+    "lon_min": 115.0,
+    "lon_max": 145.0,
+    "lat_min": 15.0,
+    "lat_max": 40.0,
+    "note": "bounds inclusive; recorded after the original extraction (values from notebook 01 at the time)"
   }
 }

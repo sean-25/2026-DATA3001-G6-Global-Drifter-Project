@@ -12,3 +12,6 @@ data/**/*.parquet
 # Python
 __pycache__/
 *.pyc
+# Large or regenerated outputs (recreated by run_all.py)
+results/**/*.parquet
+data/legacy_unused/

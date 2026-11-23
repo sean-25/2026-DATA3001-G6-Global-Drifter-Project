@@ -92,7 +92,7 @@
     "vel": 0.2,
     "sst": 0.3
   },
-  "bootstrap_seconds": 2.6,
+  "bootstrap_seconds": 2.5,
   "significance": {
     "velocity": {
       "cells_tested": 493,
