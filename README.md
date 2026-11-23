@@ -290,14 +290,39 @@ describe non-El Niño. The per-phase columns repeat the 06 definitions within ea
 
 ## Data sources and citations
 
-* Elipot, S., Lumpkin, R., Perez, R. C., Lilly, J. M., Early, J. J. & Sykulski, A. M. (2016). A global
-  surface drifter data set at hourly resolution. *Journal of Geophysical Research: Oceans*, 121(5),
-  2937–2966. <https://doi.org/10.1002/2016JC011716>
-* Elipot, S., Sykulski, A., Lumpkin, R., Centurioni, L. & Pazos, M. (2022). Hourly location, current
-  velocity, and temperature collected from Global Drifter Program drifters world-wide (v2.01.1).
-  NOAA NCEI. <https://doi.org/10.25921/x46c-3620>. Accessed through CloudDrift 0.48.1
-  (<https://github.com/Cloud-Drift/clouddrift>) from the AWS Open Data registry.
-* Elipot, S. et al. (2022). A dataset of hourly sea surface temperature from drifting buoys.
-  *Scientific Data*, 9, 567. <https://doi.org/10.1038/s41597-022-01670-2>
-* NOAA Climate Prediction Center. Relative Oceanic Niño Index (RONI).
-  <https://www.cpc.ncep.noaa.gov/data/indices/RONI.ascii.txt> (2026-11-11).
+### Data sources
+
+* **GDP hourly drifter data** (v2.01.1; Elipot et al. 2016, 2022). Accessed on 9 November 2026
+  through CloudDrift 0.48.1 (`clouddrift.datasets.gdp1h()`, <https://github.com/Cloud-Drift/clouddrift>)
+  from NOAA's public Zarr store on the AWS Open Data registry
+  (<https://registry.opendata.aws/noaa-oar-hourly-gdp/>). SST and its quality flag (`flg_sst`) are
+  documented in Elipot et al. (2022), *Scientific Data*.
+* **Relative Oceanic Niño Index** (CPC 2026c). Committed as `data/RONI.ascii.txt`, downloaded on
+  11 November 2026. ENSO episodes follow NOAA's definition (CPC 2026a): RONI at or beyond ±0.5 °C
+  for at least five consecutive overlapping seasons.
+
+### References
+
+UNSW Harvard style. The CPC labels match the reference list in the final report.
+
+Climate Prediction Center (CPC) 2026a, *Implementing a Relative Oceanic Niño Index effective
+February 1, 2026*, Public Information Statement 26-05, National Weather Service, National Oceanic
+and Atmospheric Administration, viewed 11 November 2026,
+<https://weather.gov/media/notification/pdf_2026/pns26-05_Relative_ONI.pdf>.
+
+Climate Prediction Center (CPC) 2026c, *Relative Oceanic Niño Index (RONI)*, dataset, National
+Oceanic and Atmospheric Administration, viewed 11 November 2026,
+<https://www.cpc.ncep.noaa.gov/data/indices/RONI.ascii.txt>.
+
+Elipot, S, Lumpkin, R, Perez, RC, Lilly, JM, Early, JJ & Sykulski, AM 2016, 'A global surface
+drifter data set at hourly resolution', *Journal of Geophysical Research: Oceans*, vol. 121, no. 5,
+pp. 2937–2966, DOI:10.1002/2016JC011716.
+
+Elipot, S, Sykulski, A, Lumpkin, R, Centurioni, L & Pazos, M 2022, 'A dataset of hourly sea surface
+temperature from drifting buoys', *Scientific Data*, vol. 9, article 567,
+DOI:10.1038/s41597-022-01670-2.
+
+Elipot, S, Sykulski, A, Lumpkin, R, Centurioni, L & Pazos, M 2022, *Hourly location, current
+velocity, and temperature collected from Global Drifter Program drifters world-wide*, version
+2.01.1, dataset, NOAA National Centers for Environmental Information, viewed 9 November 2026,
+<https://doi.org/10.25921/x46c-3620>.
