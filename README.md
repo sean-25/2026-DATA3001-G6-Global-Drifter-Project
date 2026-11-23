@@ -1,4 +1,4 @@
-# Kuroshio surface-current climatology from GDP hourly drifters
+# When can a drifter climatology be trusted? Sampling precision in the Kuroshio
 
 UNSW, DATA3001 Data Science and Decisions in Practice, Term 3 2026, Group 6.
 
