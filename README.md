@@ -1,6 +1,7 @@
 # Kuroshio surface-current climatology from GDP hourly drifters
 
 UNSW, DATA3001 Data Science and Decisions in Practice, Term 3 2026, Group 6.
+
 Authors: Sean Enzo Nebres, Saihil Arandkar, Xintong Liu, Jiaying Li.
 
 ## Summary
@@ -123,11 +124,6 @@ notebooks' stored outputs always match `results/` and `figures/`. You can also o
 in Jupyter and run them in order (01 → 08). They work from any working directory. Outside
 `run_all.py`, extraction is controlled by the environment variable `GDP_EXTRACT=auto|force|never`
 (default `auto`).
-
-| Step | Time (Apple M2, 8 GB) | Peak RAM | Disk |
-|---|---|---|---|
-| GDP extraction (01, first run only) | **slow**: streams the global 197M-hour dataset from AWS; roughly 20–60+ min depending on connection | **≈ 16 GB recommended** (the global lon/lat/time and per-drifter arrays are held in memory) | 117 MB extract |
-| Notebooks 01–08 with the extract present | **≈ 45–75 s in total** (01 ≈ 7–25 s, the others 3–11 s each) | ≈ 1.6 GB | ≈ 120 MB `results/` (mostly the cleaned parquet), 11 MB `figures/` |
 
 The extraction is the only slow step. Once `data/kuroshio_obs.parquet` exists, every later run skips
 it. To skip it on a fresh clone, copy an existing `kuroshio_obs.parquet` (for example, from a team
